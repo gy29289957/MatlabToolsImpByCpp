@@ -1,3 +1,5 @@
+#include "opencv2/opencv.hpp"
+
 float immse(cv::Mat const &imgSrc1, cv::Mat const &imgSrc2)
 {
 	cv::Mat 		difference;
